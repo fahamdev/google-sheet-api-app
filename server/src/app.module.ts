@@ -3,6 +3,7 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { ConfigModule } from '@nestjs/config';
 import { configValidationSchema } from './common/schema/config.schema';
+import { GoogleSheetModule } from './google-sheet/google-sheet.module';
 
 @Module({
   imports: [
@@ -10,6 +11,7 @@ import { configValidationSchema } from './common/schema/config.schema';
       isGlobal: true,
       validationSchema: configValidationSchema,
     }),
+    GoogleSheetModule,
   ],
   controllers: [AppController],
   providers: [AppService],
