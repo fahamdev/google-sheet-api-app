@@ -1,0 +1,20 @@
+{
+  "name": "google-sheet-api-app",
+  "version": "1.0.0",
+  "description": "Simple Full-stack app using Google Sheet API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fahamdev/google-sheet-api-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fahamdev/google-sheet-api-app/issues"
+  },
+  "homepage": "https://github.com/fahamdev/google-sheet-api-app#readme"
+}
